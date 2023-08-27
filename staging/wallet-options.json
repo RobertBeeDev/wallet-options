@@ -1,0 +1,327 @@
+{
+  "enableDomainMigrationRedirects": false,
+  "domains": {
+    "root": "https://explorer.staging.blockchain.info",
+    "comRoot": "https://staging.blockchain.com",
+    "comWalletApp": "https://wallet.staging.blockchain.com",
+    "webSocket": "wss://ws.staging.blockchain.info/inv",
+    "api": "https://api.staging.blockchain.info",
+    "walletHelperUrl": "https://wallet-helper.staging.blockchain.info",
+    "stellarHorizon": "https://api.blockchain.info/stellar"
+  },
+  "network": "bitcoin",
+  "showBuySellTab": [
+    "US"
+  ],
+  "buySell": {
+    "disabled": false,
+    "disabledReason": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+  "partners": {
+    "coinify": {
+      "disabled": false,
+      "countries": [
+        "GB",
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "GF",
+        "DE",
+        "GI",
+        "GR",
+        "GP",
+        "GG",
+        "HU",
+        "IS",
+        "IE",
+        "IM",
+        "IT",
+        "JE",
+        "LV",
+        "LI",
+        "LT",
+        "LU",
+        "MT",
+        "MQ",
+        "YT",
+        "MC",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RE",
+        "RO",
+        "BL",
+        "MF",
+        "PM",
+        "SM",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CH",
+        "US"
+      ],
+      "partnerId": 24,
+      "iSignThisDomain": "https://stage-verify.isignthis.com",
+      "surveyLinks": [
+        "https://blockchain.co1.qualtrics.com/SE/?SID=SV_8pupOEQPGkXx8Kp",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_205rqJvYy7mRxnn",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_ac9wCotxdlnCzU9",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_agg8sRcpEsWbEnb",
+        "https://blockchain.co1.qualtrics.com/SE/?SID=SV_1RF9VhC96M8xXh3"
+      ],
+      "sellSurveyLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_56iZITjrjyMOrzL",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_9u8XxkrkiUUy6z3",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_9ysiGRC4rkMFwFv"
+      ],
+      "showSellFraction": 1,
+      "showRecurringBuy": true
+    },
+    "sfox": {
+      "disabled": false,
+      "production": false,
+      "countries": [
+        "US"
+      ],
+      "states": [
+        "AL",
+        "AZ",
+        "CA",
+        "CO",
+        "DE",
+        "GA",
+        "IN",
+        "KS",
+        "ME",
+        "MD",
+        "MA",
+        "MO",
+        "MT",
+        "NY",
+        "PA",
+        "SC",
+        "TN",
+        "TX",
+        "UT"
+      ],
+      "showBuyFraction": 0,
+      "inviteFormFraction": 0.25,
+      "showCheckoutFraction": 0.5,
+      "apiKey": "6CD61A0E965D48A7B1883A860490DC9E",
+      "plaid": "0b041cd9e9fbf1e7d93a0d5a39f5b9",
+      "plaidEnv": "tartan",
+      "siftScience": "3884e5fae5",
+      "surveyLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_bPCcv7eZgqlQSrP",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_4HIEh5KIodM8UTP",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_51qOIk4EXHshNFX",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_4GEMndhhy58lapT"
+      ],
+      "buySurveyLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_8G431wYyJnciCHj",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_78S6RzM5ipN66fb"
+      ]
+    },
+    "unocoin": {
+      "disabled": true,
+      "countries": [
+        "IN"
+      ],
+      "showCheckoutFraction": 0,
+      "production": false,
+      "surveyLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_0wAlAEnwlumr4XP",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_8jmvSfjqqPzNWVn",
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_25JUYJLoLoHQ5b7"
+      ],
+      "surveyTradeLinks": [
+        "https://blockchain.co1.qualtrics.com/jfe/form/SV_87YRZx6LVdaF4kR",
+        "",
+        "https://docs.google.com/forms/d/e/1FAIpQLSfzk27LixcjpCiLn5BlhZHDLqG6mXiZgPA-b1T0fFCWpyxqAA/viewform"
+      ]
+    }
+  },
+  "service_charge": {},
+  "showMobileLogin": true,
+  "ethereum": {
+    "mew": true,
+    "countries": [
+      "US"
+    ],
+    "lastTxFuse": 600,
+    "rolloutFraction": 1,
+    "surveyLinks": [
+      "https://blockchain.co1.qualtrics.com/jfe/form/SV_7Q987NPvIT4f6xn",
+      "https://blockchain.co1.qualtrics.com/jfe/form/SV_b8A9pKaGE30Qb9X"
+    ]
+  },
+  "shapeshift": {
+    "disabled": false,
+    "apiKey": "b7a7c320c19ea3a8e276c8921bc3ff79ec064d2cd9d98ab969acc648246b4be5ab2379af704c5d3a3021c0ddf82b3e479590718847c1301e1a85331d2d2a8370",
+    "countriesBlacklist": [
+      "BD",
+      "BO",
+      "EC",
+      "JP",
+      "JO",
+      "KG",
+      "KP",
+      "PH"
+    ],
+    "statesWhitelist": [
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "MI",
+      "MN",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "OK",
+      "PA",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "VA",
+      "WI",
+      "WV"
+    ],
+    "rolloutFraction": 1,
+    "upperLimit": 500,
+    "surveyLinks": [
+      "https://blockchain.co1.qualtrics.com/jfe/form/SV_1MuVnVEtWhiVIQl",
+      "https://blockchain.co1.qualtrics.com/jfe/form/SV_3QV1OgysGUC0hXD"
+    ]
+  },
+  "bcash": {
+    "feePerByte": 4
+  },
+  "xlm": {
+    "operationFee": 1500,
+    "sendTimeOutSeconds": 600
+  },
+  "xlmExchange": {
+    "exchangeAddresses": [
+      "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3",
+      "GA5XIGA5C7QTPTWXQHY6MCJRMTRZDOSHR6EFIBNDQTCQHG262N4GGKTM",
+      "GABSZVZBYEO5F4V5LZKV7GR4SAJ5IKJGGOF43BIN42FNDUG7QPH6IMRQ",
+      "GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A",
+      "GAW4E6NGM4NPNX2LO2BKDPCCTUX3FJLKWHPU4VQPGBIBQGD6JTVF5C7C",
+      "GAWPTHY6233GRWZZ7JXDMVXDUDCVQVVQ2SXCSTG3R3CNP5LQPDAHNBKL",
+      "GB3RMPTL47E4ULVANHBNCXSXM2ZA5JFY5ISDRERPCXNJUDEO73QFZUNK",
+      "GB6YPGW5JFMMP2QB2USQ33EUWTXVL4ZT5ITUNCY3YKVWOJPP57CANOF3",
+      "GB7GRJ5DTE3AA2TCVHQS2LAD3D7NFG7YLTOEWEBVRNUUI2Q3TJ5UQIFM",
+      "GBKTJSNUSR6OCXA5WDWGT33MNSCNQHOBQUBYC7TVS7BOXDKWFNHI4QNH",
+      "GBOEEVARKVASOQSSXCAHNTGJTVALJE2QM3AQQ2K3VXACQ6JJREQRJZKB",
+      "GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYOG",
+      "GBSTRUSD7IRX73RQZBL3RQUH6KS3O4NYFY3QCALDLZD77XMZOPWAVTUK",
+      "GBTBVILDGCOIK26EPEHYCMKM7J5MTQ4FD5DO37GVTTBP45TVGRAROQHP",
+      "GBUQWP3BOUZX34TOND2QV7QQ7K7VJTG6VSE7WMLBTMDJLLAW7YKGU6EP",
+      "GBV4ZDEPNQ2FKSPKGJP2YKDAIZWQ2XKRQD4V4ACH3TCTFY6KPY3OAVS7",
+      "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
+      "GBWZHAVWY23QKKDJW7TXLSIHY5EX4NIB37O4NMRKN2SKNWOSE5TEPCY3",
+      "GC4KAS6W2YCGJGLP633A6F6AKTCV4WSLMTMIQRSEQE5QRRVKSX7THV6S",
+      "GCGNWKCJ3KHRLPM3TM6N7D3W5YKDJFL6A2YCXFXNMRTZ4Q66MEMZ6FI2",
+      "GCLDH6L6FBLTD3H3B23D6TIFVVTFBLZMNBC3ZOI6FGI5GPQROL4FOXIN",
+      "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P",
+      "GCO2IP3MJNUOKS4PUDI4C7LGGMQDJGXG3COYX3WSB4HHNAHKYV5YL3VC",
+      "GCVBUIXKKLH2DYHZRSLZUIZSVJUL74RTW6FVCCEYB2OE3RH7RVDBPCFG",
+      "GCXDR4QZ4OTVX6433DPTXELCSEWQ4E5BIPVRRJMUR6M3NT4JCVIDALZO",
+      "GDBCHKTHJUKDGSIQSTBUXFWVP3QVART5LED6KRZQ5X4Z5WLT4BGYXWCI",
+      "GDMXNQBJMS3FYI4PFSYCCB4XODQMNMTKPQ5HIKOUWBOWJ2P3CF6WASBE",
+      "GDRSWSKJCIB6Z65UA7W5RG62A7M5K3A5IHMED6DYHLPLWLVQCOOGDQ7S",
+      "GDU2FEL6THGGOFDHHP4I5FHNWY4S2SXYUBCEDB5ZREMD6UFRT4SYWSW2",
+      "GDZCEWJ5TVXUTFH6V5CVDQDE43KRXYUFRHKI7X64EWMVOVYYZJFWIFQ2",
+      "GDP34WXZRCSHVUDQLGKJKOBMS5LOQPHCIADZU5POEF3IICZ7XNQJ65Y6",
+      "GARAR5QR7WRL24MQMSO4INWV7C5SE4EE2YVXTLD6ORONYFHSUAGZYSLN",
+      "GCWYV4ZICBNDYJ3HE7GHPF3MJPIH63QNCWYPFTC5BQOIODUEI7HJBJVS",
+      "GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37",
+      "GBQ6RTEHEHXFPKSWCIM4KSVQXBANLFMVV6FJIZDLTF3ZOGFHTBDZUYDD"
+    ]
+  },
+  "iosBuyPercent": 1,
+  "androidBuyPercent": 1,
+  "mobile": {
+    "walletRoot": "https://explorer.staging.blockchain.info/wallet-buy-sell"
+  },
+  "android": {
+    "showUnocoin": false,
+    "showShapeshift": true,
+    "showSfox": false
+  },
+  "android_update": {
+    "updateType": "recommended",
+    "latestStoreVersion": "6.27.2"
+  },
+  "ios": {
+    "update": {
+      "updateType": "none",
+      "latestStoreVersion": ""
+    },
+    "showShapeshift": true,
+    "showSfox": false
+  },
+  "hotWalletAddresses": {
+    "swap": {
+      "eth": "0xC05f893248D843192A989AEE6dC26d21426E78AF"
+    },
+    "exchange": {
+      "eth": "0x95eFeFA0A4564BfABfBB1Ee08A359C062EB0A94b"
+    },
+    "simplebuy": {
+      "eth": "0xFF202CBC6C794516164E45621143acDe4a3FEa24"
+    },
+    "lending": {
+      "eth": "0xBA0145434A0a53E58D10680254756F679c359463"
+    },
+    "rewards": {
+      "eth": "0x7d9d70c1A99FcC952d48b781947FAa0a3795083E"
+    }
+  },
+  "web": {
+    "serviceAlert": {
+      "public": {
+        "id": "blockchain-rebrand",
+        "type": "info",
+        "icon": "",
+        "hideType": "dismiss",
+        "header": {
+          "en": "We're now Blockchain.com"
+        },
+        "action": {
+          "title": {
+            "en": "Learn more"
+          },
+          "link": "https://medium.com/blockchain/ushering-in-a-new-era-with-a-new-name-blockchain-com-17101e1bc198"
+        }
+      }
+    }
+  },
+  "webHardFork": {},
+  "maintenance": false,
+  "mobileInfo": {
+    "en": "We are experiencing an outage with the wallet. Please rest assured your funds are safe."
+  }
+}

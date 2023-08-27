@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "wallet-options",
+  "version": "1.0.0",
+  "description": "runtime configuration options for blockchain wallet clients",
+  "main": "src/index.js",
+  "repository": "git@github.com:blockchain/wallet-options.git",
+  "author": "Justin Tormey <justin@blockchain.com>",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  },
+  "scripts": {
+    "format": "node scripts/json-format.js",
+    "test": "jest"
+  },
+  "standard": {
+    "global": [
+      "describe",
+      "it",
+      "expect"
+    ]
+  },
+  "dependencies": {
+    "husky": "3.1.0",
+    "jest": "^26.6.3",
+    "jsonschema": "1.4.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
